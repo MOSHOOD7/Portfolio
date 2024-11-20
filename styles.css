@@ -1,18 +1,17 @@
-/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     color: #ffffff;
-    background-color: #1F2A47; /* Dark blue background */
+    background-color: #1F2A47; 
     margin: 0;
     padding: 0;
-    text-align: center; /* Center all text */
-    line-height: 1.8; /* Increased line spacing for readability */
-    letter-spacing: 0.5px; /* Slightly increased spacing between letters */
+    text-align: center; 
+    line-height: 1.8;
+    letter-spacing: 0.5px; 
 }
 
 h1, h2, h3 {
-    color: #4CAF50; /* Green color for headings */
-    letter-spacing: 1px; /* Increased spacing for headings */
+    color: #4CAF50; 
+    letter-spacing: 1px; 
 }
 
 a {
@@ -24,7 +23,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Navbar */
 nav {
     background-color: #2C3E50;
     padding: 15px;
@@ -33,25 +31,23 @@ nav {
 nav a {
     margin: 0 10px;
     font-size: 16px;
-    letter-spacing: 0.7px; /* Improved spacing for navbar links */
+    letter-spacing: 0.7px; 
 }
 
-/* Section Styling */
 section {
     margin: 20px auto;
-    padding: 30px; /* Increased padding for better spacing */
-    max-width: 90%; /* Extend section width closer to screen edges */
+    padding: 30px; 
+    max-width: 90%; 
     background-color: #1F2A47;
-    border: 3px solid #4CAF50; /* Thicker green border */
+    border: 3px solid #4CAF50; 
     border-radius: 5px;
-    line-height: 1.8; /* Adjust line spacing inside sections */
+    line-height: 1.8; 
 }
 
-/* Work Section */
 #work h3 {
     font-size: 20px;
     margin-top: 10px;
-    letter-spacing: 0.7px; /* Increased spacing for section headings */
+    letter-spacing: 0.7px; 
 }
 
 #work ul {
@@ -61,25 +57,23 @@ section {
 
 #work ul li {
     margin: 10px 0;
-    text-align: left; /* Left-align list items */
-    line-height: 1.6; /* Line spacing for bullet points */
+    text-align: left; 
+    line-height: 1.6; 
 }
 
-/* Media Section */
 video {
     display: block;
-    margin: 15px auto; /* Center videos */
-    max-width: 90%; /* Make videos responsive */
+    margin: 15px auto; 
+    max-width: 90%; 
     border: 2px solid #4CAF50;
     border-radius: 5px;
 }
 
-/* Contact Form */
 textarea {
     width: 90%;
     padding: 10px;
     margin: 10px 0;
-    line-height: 1.5; /* Increased line spacing for text area */
+    line-height: 1.5; 
 }
 
 input[type="submit"] {
@@ -95,7 +89,6 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
-/* Footer Section */
 footer {
     background-color: #2C3E50;
     color: #ffffff;
